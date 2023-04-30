@@ -1,6 +1,20 @@
 body{
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  margin-top: 5px;
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+  background-color:#ff99aa;
+  background-image:
+  radial-gradient(at 76% 7%, hsla(268,66%,79%,1) 0px, transparent 50%),
+  radial-gradient(at 8% 15%, hsla(247,36%,91%,1) 0px, transparent 50%),
+  radial-gradient(at 13% 64%, hsla(352,68%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 82% 98%, hsla(227,71%,72%,1) 0px, transparent 50%),
+  radial-gradient(at 30% 69%, hsla(332,36%,72%,1) 0px, transparent 50%),
+  radial-gradient(at 90% 36%, hsla(291,93%,81%,1) 0px, transparent 50%),
+  radial-gradient(at 70% 19%, hsla(255,57%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 69%, hsla(243,73%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 42% 92%, hsla(330,24%,62%,1) 0px, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .App {
@@ -10,11 +24,22 @@ body{
 }
 
 .calc-wrapper{
-  background-color: white;
+  /* background-color: white; */
+  margin-top: 20px;
   width: 400px;
   border-radius: 16px;
 }
 
 .row{
   display: flex;
+}
+
+.glass{
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
 }
